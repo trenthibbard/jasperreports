@@ -141,6 +141,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
+					<classifier>BH</classifier>
 					<archive>
 						<manifestFile>${basedir}/src/META-INF/MANIFEST.MF</manifestFile>
 					</archive>
